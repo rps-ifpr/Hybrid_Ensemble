@@ -15,13 +15,13 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # importando os dados
-df= pd.read_csv ('..data/raw/dados.csv', delimiter=';')
+df= pd.read_csv ('../data/raw/dados.csv', delimiter=';')
 
 # Verificando tipo de dados
 tipos = df.dtypes
 print(tipos)
 
-# Converter variáveis numéricas que estão como objetos
+# Convertendo as variáveis numéricas que estão como objetos
 df['Outdoor Temperature(°C)'] = pd.to_numeric(df['Outdoor Temperature(°C)'], errors='coerce')
 df['Outdoor Humidity(%)'] = pd.to_numeric(df['Outdoor Humidity(%)'], errors='coerce')
 df['Wind Speed(km/h)'] = pd.to_numeric(df['Wind Speed(km/h)'], errors='coerce')
