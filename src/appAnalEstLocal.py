@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # importando os dados
-df= pd.read_csv ('../data/raw/dados.csv', delimiter=';')
+df= pd.read_csv ('../data/raw/dadosestacaolocal.csv', delimiter=';')
 
 # Verificando tipo de dados
 tipos = df.dtypes
@@ -81,7 +81,7 @@ num_cols = df.select_dtypes(include=['float64', 'int64']).columns
 # removendo colunas desnecessárias
 num_cols = num_cols.drop(['id', 'intervalo','rain_time','rain_week','rain_month','rain_24h'])
 
-st.title("Estação Meteorológica IFPR-Campus Capanema")
+st.title("Estação Meteorológica Local - Capanema")
 
 # criando dataframe de correlação
 corr = df_clean[num_cols].corr()
