@@ -68,16 +68,20 @@ This work explores the development of a real-time decision support system for pr
    git clone https://github.com/your-username/your-repository.git
 
 1. Create and activate a virtual environment:
+  ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
+ ```
 2. Install the dependencies:
+  ```bash
 pip install -r requirements.txt
+ ```
 
-3. See the docs/setup.md file for detailed instructions on setting up the environment and running the code.
+3. See the ```docs/setup.md  ``` file for detailed instructions on setting up the environment and running the code.
 
 ## 🤝 Collaboration
 Feel free to get in touch if you have any questions, suggestions, or are interested in collaborating!
-[Nome]<br>
-[Email]<br>
-
+ ```bash
+[ROGERIO PEREIRA DOS SANTOS]<br>
+[rogerio.dosantos@ifpr.edu.br]<br>
+```
