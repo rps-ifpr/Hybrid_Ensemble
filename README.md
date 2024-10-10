@@ -1,26 +1,23 @@
-<h1>🚀 Hybrid Ensemble Learning for Precision Irrigation in Hop Production</h1>
+# 🚀 Hybrid Ensemble Learning for Precision Irrigation in Hop Production
 
-<p>Este repositório contém o código e a documentação do meu projeto de doutorado, que propõe uma <b>abordagem híbrida de aprendizado de conjunto para irrigação de precisão em tempo real na produção de lúpulo</b>.</p>
+This repository contains the code and documentation for my doctoral project, which proposes a **hybrid ensemble learning approach for real-time precision irrigation in hop production**.
 
-<h2>🌾 Contexto e Motivação</h2>
+## 🌾 Context and Motivation
 
-<p>A produção eficiente de lúpulo exige um manejo preciso da irrigação para otimizar o rendimento e a qualidade da cultura, ao mesmo tempo em que minimiza o consumo de água e os impactos ambientais. A irrigação de precisão, guiada por dados e modelos preditivos, surge como uma solução promissora.</p>
+Efficient hop production demands precise irrigation management to optimize crop yield and quality while minimizing water consumption and environmental impact. Precision irrigation, guided by data and predictive models, emerges as a promising solution.
 
-<h2>💡 Abordagem Proposta</h2>
+## 💡 Proposed Approach
 
-<p>Este trabalho explora o desenvolvimento de um sistema de apoio à decisão em tempo real para irrigação de precisão em plantações de lúpulo. A espinha dorsal do sistema é um <b>modelo híbrido de aprendizado de conjunto</b>, que combina as forças de diferentes algoritmos de aprendizado de máquina para previsões robustas e precisas.</p>
+This work explores the development of a real-time decision support system for precision irrigation in hop plantations. The backbone of the system is a **hybrid ensemble learning model**, which combines the strengths of different machine learning algorithms for robust and accurate predictions.
 
-<h3>Principais características:</h3>
+### Key features:
 
-<ul>
-  <li><b>Dados multissensor</b>: Integração de dados climáticos, do solo e da planta para capturar a dinâmica complexa do sistema.</li>
-  <li><b>Modelagem preditiva</b>: Desenvolvimento de um modelo híbrido de conjunto para prever as necessidades de irrigação com alta precisão.</li>
-  <li><b>Interface amigável</b>: Implementação de um aplicativo web intuitivo (Streamlit) para visualização de dados e interação com o modelo.</li>
-</ul>
+- **Multi-sensor data:** Integration of climate, soil, and plant data to capture the complex system dynamics.
+- **Predictive modeling:** Development of a hybrid ensemble model to predict irrigation needs with high accuracy.
+- **User-friendly interface:** Implementation of an intuitive web application (Streamlit) for data visualization and interaction with the model.
 
-<h2>📂 Estrutura do Repositório</h2>
-
-<pre>
+## 📂 Repository Structure
+```bash
 /projeto/
 │
 ├── .git/                     # Controle de versão Git
@@ -54,38 +51,33 @@
 │   ├── test/                 # Dados de teste
 │
 └── models/                   # Modelos treinados e checkpoints 
-</pre>
+```
 
-<h2>📄 Artigos Publicados</h2>
+## 📄 Published Articles
 
-<ul>
-  <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-38344-1_6">[Machine Learning for Automatic Weather Stations: A Case Study]</a></li>
-  <li><a href="https://ieeexplore.ieee.org/abstract/document/10084899">[Package Proposal for Data Pre-Processing for Machine Learning Applied to Precision Irrigation]</a></li>
- <li><a href="https://www.mdpi.com/2224-2708/12/2/28">[A Rapid Review on the Use of Free and Open Source Technologies and Software Applied to Precision Agriculture Practices]</a></li>
- <li><a href="https://ieeexplore.ieee.org/abstract/document/9820048">[Analysis of MQTT-SN and LWM2M communication protocols for precision agriculture IoT devices]</a></li>
- <li><a href="[Link para o artigo (DOI ou URL)]">[Título do Artigo 2]</a></li>
-</ul>
+- [Machine Learning for Automatic Weather Stations: A Case Study](https://link.springer.com/chapter/10.1007/978-3-031-38344-1_6)
+- [Package Proposal for Data Pre-Processing for Machine Learning Applied to Precision Irrigation](https://ieeexplore.ieee.org/abstract/document/10084899)
+- [A Rapid Review on the Use of Free and Open Source Technologies and Software Applied to Precision Agriculture Practices](https://www.mdpi.com/2224-2708/12/2/28)
+- [Analysis of MQTT-SN and LWM2M communication protocols for precision agriculture IoT devices](https://ieeexplore.ieee.org/abstract/document/9820048)
+- [Título do Artigo 2]([Link para o artigo (DOI ou URL)]) 
 
-<h2>🚀 Começando</h2>
+## 🚀 Getting Started
 
-<ol>
-  <li>Clone este repositório:
-    <pre><code>git clone https://github.com/seu-usuario/seu-repositorio.git</code></pre>
-  </li>
-  <li>Crie e ative um ambiente virtual:
-    <pre><code>python3 -m venv .venv
-source .venv/bin/activate</code></pre>
-  </li>
-  <li>Instale as dependências:
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
-  <li>Consulte o arquivo <code>docs/setup.md</code> para obter instruções detalhadas sobre a configuração do ambiente e a execução do código.</li>
-</ol>
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
 
-<h2>🤝 Colaboração</h2>
+1. Create and activate a virtual environment:
+python3 -m venv .venv
+source .venv/bin/activate
 
-<p>Sinta-se à vontade para entrar em contato se tiver alguma dúvida, sugestão ou interesse em colaborar!</p>
+2. Install the dependencies:
+pip install -r requirements.txt
 
-<p><b>[Seu nome]</b><br>
-<b>[Seu email]</b><br>
-<a href="[Link para seu site pessoal/LinkedIn (opcional)]">[Link para seu site pessoal/LinkedIn (opcional)]</a></p>
+3. See the docs/setup.md file for detailed instructions on setting up the environment and running the code.
+
+## 🤝 Collaboration
+Feel free to get in touch if you have any questions, suggestions, or are interested in collaborating!
+[Nome]<br>
+[Email]<br>
+
