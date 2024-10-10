@@ -70,6 +70,8 @@ This work explores the development of a real-time decision support system for pr
 1. Create and activate a virtual environment:
   ```bash
 python3 -m venv .venv
+ ```
+```bash
 source .venv/bin/activate
  ```
 2. Install the dependencies:
@@ -82,6 +84,6 @@ pip install -r requirements.txt
 ## 🤝 Collaboration
 Feel free to get in touch if you have any questions, suggestions, or are interested in collaborating!
  ```bash
-[ROGERIO PEREIRA DOS SANTOS]<br>
-[rogerio.dosantos@ifpr.edu.br]<br>
+ROGERIO PEREIRA DOS SANTOS
+rogerio.dosantos@ifpr.edu.br
 ```
