@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # importando os dados
-df= pd.read_csv ('dados.csv', delimiter=';')
+df= pd.read_csv ('../data/raw/dadosestacaolocal.csv', delimiter=';')
 
 # Verificando tipo de dados
 tipos = df.dtypes
@@ -18,7 +18,6 @@ df['Gust(km/h)'] = pd.to_numeric(df['Gust(km/h)'], errors='coerce')
 df['DewPoint(°C)'] = pd.to_numeric(df['DewPoint(°C)'], errors='coerce')
 df['WindChill(°C)'] = pd.to_numeric(df['WindChill(°C)'], errors='coerce')
 
-# criando o dicionário com os novos nomes
 # criando o dicionário com os novos nomes
 df_novo = {'n': 'id',
              'Time': 'date',

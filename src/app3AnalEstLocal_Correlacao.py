@@ -53,7 +53,7 @@ def load_and_process_data(file_path, delimiter=';'):
 st.title("Estação Meteorológica IFPR-Campus Capanema - Estudo de Caso 3")
 
 # Carregando e processando os dados
-df = load_and_process_data('dados.csv')
+df = load_and_process_data('../data/raw/dadosestacaolocal.csv')
 
 # Selecionando colunas para análise
 colunas_analise = ['external_temp', 'external_humidity', 'wind_speed', 'gust_wind', 'dew_point', 'thermal_sensation', 'absolute_pressure']
